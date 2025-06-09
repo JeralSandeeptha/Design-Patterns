@@ -17,6 +17,8 @@
   - Structural Design Patterns
   - Behavioural Design Patterns
 
+- Instead of those patterns there are many design patterns related to specific frameworks [READ THIS ARTICLE](https://www.patterns.dev/#patterns)
+
 <br /><br />
 
 ## Creational Patterns
