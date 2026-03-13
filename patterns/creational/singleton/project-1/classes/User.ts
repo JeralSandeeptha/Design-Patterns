@@ -1,3 +1,4 @@
+import DBConnection from "./DBConnection";
 import Logger, { LogLevel } from "./Logger";
 
 class User {
@@ -8,10 +9,13 @@ class User {
     private address: string= '';
 
     private logger: Logger;
+    private db: DBConnection;
 
     constructor() {
         this.logger = Logger.getInstance();
-        console.log(this.logger.getLoggerInfo());
+        this.db = DBConnection.getInstance();
+        // console.log(this.logger.getLoggerInfo());
+        // console.log(this.db.getDbStatus());
     };
 
     createUser(id: number, name: string, age: number, address: string) {

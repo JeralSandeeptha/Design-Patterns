@@ -1,4 +1,13 @@
+import DBConnection from "./DBConnection";
 import Logger, { LogLevel } from "./Logger";
+
+type ProductFields = {
+    id: number;
+    name: string;
+    price: number;
+};
+
+let products: ProductFields[] = [];
 
 class Product {
 
@@ -7,14 +16,22 @@ class Product {
     private price: number = 0;
 
     private logger: Logger;
+    private db: DBConnection;
 
     constructor() {
         this.logger = Logger.getInstance();
-        console.log(this.logger.getLoggerInfo());
+        this.db = DBConnection.getInstance();
+        // console.log(this.logger.getLoggerInfo());
+        // console.log(this.db.getDbStatus());
     };
 
-    createUser(id: number, name: string, price: number) {
+    createProduct(id: number, name: string, price: number) {
         this.logger.log(LogLevel.INFO, `Product has been saved ${id} ${name} ${price}`);
+        return products.push(...products, {
+            id,
+            name,
+            price
+        });
     }
 
     getProduct(id: number) {
@@ -23,6 +40,7 @@ class Product {
 
     getAllProducts() {
         this.logger.log(LogLevel.INFO, `All products have been retrieved`);
+        return products;
     }
 
     deleteProduct(id: number) {
