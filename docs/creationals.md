@@ -3,7 +3,7 @@
 - Deal with object creation mechanisms
 - Defines how we can create objects
 - These are the creational patterns
-  - Singleton Pattern
+  - [Singleton Pattern](./patterns/createtional/singleton.md)
   - Builder Pattern
   - Factory Pattern
   - Abstract Factory Pattern
