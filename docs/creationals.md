@@ -7,7 +7,7 @@
   - [Builder Pattern](./patterns/createtional/builder.md)
   - [Factory Pattern](./patterns/createtional/factory.md)
   - Abstract Factory Pattern
-  - Prototype Pattern
+  - [Prototype Pattern](./patterns/createtional/prototype.md)
 
 <br />
 
