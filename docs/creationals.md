@@ -4,7 +4,7 @@
 - Defines how we can create objects
 - These are the creational patterns
   - [Singleton Pattern](./patterns/createtional/singleton.md)
-  - Builder Pattern
+  - [Builder Pattern](./patterns/createtional/builder.md)
   - [Factory Pattern](./patterns/createtional/factory.md)
   - Abstract Factory Pattern
   - Prototype Pattern
