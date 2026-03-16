@@ -6,7 +6,7 @@
   - [Singleton Pattern](./patterns/createtional/singleton.md)
   - [Builder Pattern](./patterns/createtional/builder.md)
   - [Factory Pattern](./patterns/createtional/factory.md)
-  - Abstract Factory Pattern
+  - [Abstract Factory Pattern](./patterns/createtional/abstract_factory.md)
   - [Prototype Pattern](./patterns/createtional/prototype.md)
 
 <br />
