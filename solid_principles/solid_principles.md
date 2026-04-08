@@ -4,10 +4,10 @@
 
 | Letter | Principle | Details |
 | ------ | --------- | ------- |
-| **S** | Single Responsibility | [Notes](./single_responsibility_principle.md) |
-| **O** | Open / Closed | [Notes](./open_closed_principle.md) |
-| **L** | Liskov Substitution | [Notes](./liskov_substitution.md) |
-| **I** | Interface Segregation | [Notes](./interface_segregation.md) |
-| **D** | Dependency Inversion | [Notes](./dependency_inversion.md) |
+| **S** | Single Responsibility | [View](./single_responsibility_principle.md) |
+| **O** | Open / Closed | [View](./open_closed_principle.md) |
+| **L** | Liskov Substitution | [View](./liskov_substitution.md) |
+| **I** | Interface Segregation | [View](./interface_segregation.md) |
+| **D** | Dependency Inversion | [View](./dependency_inversion.md) |
 
 SRP and ISP keep units small and focused. OCP and DIP make it easier to extend and swap implementations. LSP keeps inheritance and polymorphism honest so those extensions do not break callers.
